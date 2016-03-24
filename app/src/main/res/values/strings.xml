@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="app_name">U-Farm</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Mensagens -->
+    <string name="msgObrigatorio">Campo Obrigatório</string>
+    <string name="msgLoginInvalido">Login ou Senha inválidos ou inexistentes.</string>
+    <string name="msgSucesso">Operação realizada com Sucesso!!!</string>
+    <string name="msgErroOperacao">Ocorreu algum erro ao realizar a operação!</string>
+    <!-- TextViews -->
+    <string name="txvOperacao">Operação:</string>
+    <string name="txvProdServ">Prod./Serv.:</string>
+    <string name="title_activity_frag_arrendamento">FragArrendamento</string>
+    <string name="txvFornecedor">Fornecedor:</string>
+    <string name="txvContrato">Contrato:</string>
+    <string name="txvImpostos">Impostos:</string>
+    <string name="txvQuantidade">Quantidade:</string>
+    <string name="txvArea">Área:</string>
+    <string name="txvValorUn">Valor Un:</string>
+    <string name="txvValorTotal">Valor Total:</string>
+    <string name="txvNotaFiscal">Nota Fiscal Nº:</string>
+    <string name="txvSerie">Série:</string>
+    <string name="txvParcela_Lote">Parcela/Lote:</string>
+    <string name="txvCFOP">CFOP:</string>
+    <string name="txvFrete">Frete:</string>
+    <string name="txvDescontos">Descontos:</string>
+    <string name="txvCategoria">Categoria:</string>
+    <string name="txvRecurso">Recurso:</string>
+    <string name="txvIdentRec">Identificação do Recurso:</string>
+    <string name="txvMarca">Marca:</string>
+    <string name="txvModelo">Modelo:</string>
+    <string name="txvPotencia">Potência:</string>
+    <string name="txvAno">Ano:</string>
+    <string name="txvValor">Valor:</string>
+    <string name="txvTipo">Tipo:</string>
+    <string name="txvTipoRepanho">Tipo Rebanho:</string>
+    <string name="txvTipoPecuaria">Tipo Pecuária:</string>
+    <string name="txvUtAnimal">Utilidade do Animal:</string>
+    <string name="txvSexo">Sexo:</string>
+    <string name="txvPeso">Peso:</string>
+    <string name="txvAltura">Altura:</string>
+    <string name="txvDN">Data de Nascimento:</string>
+    <string name="txvNLote">Nº do Lote:</string>
+    <string name="txvNBrinco">Nº do Rastreio (Brinco):</string>
+    <string name="txvMarcaRegRebanho">Marca Registrada do Rebanho:</string>
+    <string name="txvLocalMarca">Local da Marca:</string>
+    <string name="txvVacinacao">Vacinação:</string>
+    <string name="txvSanidadeAnimal">Sanidade do Animal:</string>
+    <string name="txvNomePai">Nome do Pai:</string>
+    <string name="txvNomeMae">Nome da Mãe:</string>
+    <string name="txvRacaPai">Raça do Pai:</string>
+    <string name="txvRacaMae">Raça da Mãe:</string>
+    <string name="txvDepreciacao">Depreciação:</string>
+    <string name="txvReal">R$</string>
+    <string name="txvRealPadrao">R$00.00</string>
+    <string name="txvSubCategoria">SubCategoria:</string>
+    <string name="txvTipoServico">Tipo Serviço:</string>
+    <string name="txvRealizadoPor">Realizado Por:</string>
+    <string name="txvHIni">Hora Inicial:</string>
+    <string name="txvHFim">Hora Final:</string>
+    <string name="txvHTrab">Horas Trabalhadas:</string>
+    <string name="txvStatus">Status:</string>
+    <string name="txvData">Data:</string>
+    <string name="txvExecutor">Executor:</string>
+    <string name="txvDurTempo">Duração/Tempo:</string>
+    <string name="txvAtividade">Atividade:</string>
+    <string name="txvLocal">Local:</string>
+    <string name="txvDetalhe">Detalhe:</string>
+    <string name="txvUmedida">Un. Medida:</string>
+    <string name="txvIdAnimal">Id Animal:</string>
+    <string name="txvRaca">Raça:</string>
+    <string name="txvIdade">Idade:</string>
+    <string name="txvObs">Obs.:</string>
+
+    <!-- Labels -->
+    <string name="lblBtnGravar">Gravar</string>
+    <string name="lblBtnLogar">Logar</string>
+    <string name="lblBtnLimpar">Limpar</string>
+    <string name="lblbtnConcluir">Concluir</string>
+    <string name="lblBtnPrencInfo">Preencher Informações</string>
+    <string name="lblProp1">Propriedade 1</string>
+    <string name="lblProp2">Propriedade 2</string>
+    <string name="lblProp3">Propriedade 3</string>
+    <string name="lblProp4">Propriedade 4</string>
+    <string name="lblProp5">Propriedade 5</string>
+    <!-- Descrição de checkbox -->
+    <string name="chkFebreAftosa">Febre Aftosa</string>
+    <string name="chkBrucelose">Brucelose</string>
+    <string name="chkCarbunculo">Carbunculo</string>
+    <string name="chkLeptospirose">Leptospirose</string>
+    <string name="chkIBR">IBR</string>
+    <string name="chkBVD">Febre Aftosa</string>
+    <string name="chkParainfluenza">Febre Aftosa</string>
+    <string name="chkVirusRSB">Virus Respiratório Sincicial Bovino</string>
+    <string name="chkDiarreiaNB">Diarreira Neonatal dos Bezerros</string>
+    <string name="chkPastereullose">Pastereullose</string>
+    <string name="chkRaiva">Raiva</string>
+    <string name="chkTetano">Tetano</string>
+    <string name="chkClostridiose">Clostridiose</string>
+    <string name="chkBotulismo">Botulismo</string>
+    <!-- Titulos das activityes -->
+    <string name="title_activity_tab1">Tab1</string>
+    <string name="title_activity_tab2">Tab2</string>
+    <string name="title_activity_tab3">Tab3</string>
+    <string name="title_activity_produto_geral">ProdutoGeral</string>
+    <string name="title_activity_frame_prod_serv">FrameProdServ</string>
+    <string name="title_activity_frag_implementos_ferramentas">FragImplementos e Ferramentas</string>
+    <string name="title_activity_frag__insumos">Frag_Insumos</string>
+    <string name="title_activity_frag__locacoes">Frag_Locacoes</string>
+    <string name="title_activity_frag_mantimento">FragMantimento</string>
+    <string name="title_activity_frag_maq_equip">FragMaqEquip</string>
+    <string name="title_activity_frag_rebanho">FragRebanho</string>
+    <string name="title_activity_frag_seguro">FragSeguro</string>
+    <string name="title_activity_frag_veiculo">FragVeiculo</string>
+    <string name="title_activity_frag_info_imple_ferram">FragInfoImpleFerram</string>
+    <string name="title_activity_frag_info_maq_equip">FragInfoMaqEquip</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_frag__prod__aquis__emp_finan">Empreendimento e Financiamento</string>
+    <string name="title_activity_painel_produtivo">Atividade Adm.</string>
+    <string name="title_activity_list_propriedades">Selecione a Propriedade</string>
+    <string name="title_activity_frag_info_rebanho">FragInfoRebanho</string>
+    <string name="title_activity_atv_operacional">Atividade Operacional</string>
+    <!--     descrição dos radiobutons -->
+    <string name="radioFuncio">Funcionário</string>
+    <string name="radioTerc">Terceirizado</string>    
+    <string name="radioConc">Concluida</string>
+    <string name="radioPlanej">Planejada</string>
+    <string name="radioNConc">Não Concluida</string>
+    <string name="radioParali">Paralisada</string>
+    <string name="radioExpedicao">Expedição</string>
+    <string name="radioOrganizacao">Organização</string>
+    <!--     descrição dos itens NavigationDrawer -->
+    <string name="drawerAtvAdm">Atividade Administrativa</string>
+    <string name="drawerAtvOp">Atividade Operacional</string>
+    <string name="drawerProducao">Produção</string>
+    <string name="title_activity_menu_navigation">MenuNavigation</string>
+    <string name="title_activity_producao">Produção</string>
+    <string name="title_activity_producao_agri_floresta">ProducaoAgriFloresta</string>
+    <string name="title_activity_tab__producao_pecuaria">Tab_ProducaoPecuaria</string>
+    <string name="title_activity_tab__producao_infra">Tab_ProducaoInfra</string>
+    <!-- descrição das Tabs -->
+    <string name="title_activity_tab__atv_rot_expedicao">Tab_AtvRotExpedicao</string>
+    <string name="title_activity_tab__atv_rot_organizacao">Tab_AtvRotOrganizacao</string>
+
+
+    <!--Arrays-->
+    <string-array name="ArrayUnMedida">
+        <item>há</item>
+        <item>alq</item>
+    </string-array>
+
+    <string-array name="ArrayUnMedidaProd">
+        <item>há</item>
+        <item>alq</item>
+        <item>un</item>
+        <item>kg</item>
+        <item>m³</item>
+    </string-array>
+
+    <string-array name="ArrayNavigDrawer">
+        <item>Atividade Administrativa</item>
+        <item>Atividade Operacional</item>
+        <item>Produção</item>
+    </string-array>
+
+    <string-array name="ArrayStatus">
+        <item>Concluído</item>
+        <item>Não Concluído</item>
+        <item>Planejada</item>
+        <item>Paralisada</item>
+    </string-array>
+
+
+
+
+
+</resources>

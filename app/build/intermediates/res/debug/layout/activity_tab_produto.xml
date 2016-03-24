@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutOperacao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txvOperacao"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/spiOperacao"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:paddingLeft="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutProdServ"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1" 
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txvProdServ"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/spiProdServ"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:paddingLeft="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/frameTabProd"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="8" 
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/Joni/Documents/Projetos/Desenvolvimento/AndroidStudio/UFarm/app/src/main/res/layout/activity_tab_produto.xml -->

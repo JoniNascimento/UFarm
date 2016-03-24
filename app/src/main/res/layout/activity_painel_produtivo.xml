@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context=".PainelProdutivo" >
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarpp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:elevation="5dp"
+        android:background="@drawable/toolbar_rounded_corners" />
+
+    <android.support.v4.widget.DrawerLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- The main content view -->
+        <LinearLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+            <TabHost
+                android:id="@android:id/tabhost"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <TabWidget
+                        android:id="@android:id/tabs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                    </TabWidget>
+
+                    <FrameLayout
+                        android:id="@android:id/tabcontent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <!--   <LinearLayout
+                                android1:id="@+id/tab1"
+                                android1:layout_width="match_parent"
+                                android1:layout_height="match_parent" >
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android1:id="@+id/tab2"
+                                android1:layout_width="match_parent"
+                                android1:layout_height="match_parent" >
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android1:id="@+id/tab3"
+                                android1:layout_width="match_parent"
+                                android1:layout_height="match_parent" >
+                            </LinearLayout>-->
+                    </FrameLayout>
+                </LinearLayout>
+            </TabHost>
+
+
+
+
+
+            </LinearLayout>
+        <!-- The navigation drawer -->
+        <ListView android:id="@+id/left_drawer"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:choiceMode="multipleChoice"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            android:background="@android:color/white"
+            android:animateLayoutChanges="true"
+            android:elevation="10dp" />
+    </android.support.v4.widget.DrawerLayout>
+
+
+
+
+
+
+</LinearLayout>

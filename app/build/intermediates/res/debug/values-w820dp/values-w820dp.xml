@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/Joni/Documents/Projetos/Desenvolvimento/AndroidStudio/UFarm/app/src/main/res/values-w820dp/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <!-- From: file:/Users/Joni/Documents/Projetos/Desenvolvimento/AndroidStudio/UFarm/app/src/main/res/values-w820dp/styles.xml -->
+    <eat-comment/>
+    <style name="Theme.AppCompat.NoActionBart"/>
+</resources>

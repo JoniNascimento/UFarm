@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Joni/Documents/Projetos/Desenvolvimento/AndroidStudio/UFarm/app/build/intermediates/exploded-aar/com.mikepenz/iconics-core/2.5.4/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dcacf665e5536c0da76732c56bae2ae1e202d5da">
+        <dex dex="/Users/Joni/Documents/Projetos/Desenvolvimento/AndroidStudio/UFarm/app/build/intermediates/pre-dexed/debug/classes-09881f661de6698354161473b9488b050a252d54.jar" />
+    </item>
+    <item
+        jar="/Users/Joni/Documents/Projetos/Desenvolvimento/AndroidStudio/UFarm/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/Joni/Documents/Projetos/Desenvolvimento/AndroidStudio/UFarm/app/build/intermediates/pre-dexed/debug/classes-a681dfcde2ebad0acecc88b0a936218c0d0cc87e.jar" />
+    </item>
+    <item
+        jar="/Users/Joni/Documents/Projetos/Desenvolvimento/AndroidStudio/UFarm/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.5.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="25e8af11fff99ad02250f52f2436e25f60cc1bbe">
+        <dex dex="/Users/Joni/Documents/Projetos/Desenvolvimento/AndroidStudio/UFarm/app/build/intermediates/pre-dexed/debug/classes-930743158a1dd1efda125f4c13a7e251c9237293.jar" />
+    </item>
+    <item
+        jar="/Users/Joni/Documents/Projetos/Desenvolvimento/AndroidStudio/UFarm/app/libs/mysql-connector-java-3.1.14-bin.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6610ffaf99972bce79ce5f4eb429c5dd37f4fb05">
+        <dex dex="/Users/Joni/Documents/Projetos/Desenvolvimento/AndroidStudio/UFarm/app/build/intermediates/pre-dexed/debug/mysql-connector-java-3.1.14-bin-3e3d740c2304037f41af67b5c7d912c2c62e4d5d.jar" />
+    </item>
+    <item
+        jar="/Users/Joni/Documents/Projetos/Desenvolvimento/AndroidStudio/UFarm/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/Joni/Documents/Projetos/Desenvolvimento/AndroidStudio/UFarm/app/build/intermediates/pre-dexed/debug/classes-307eb15114a150f51c1bcf1d8962abd42af34199.jar" />
+    </item>
+    <item
+        jar="/Users/Joni/Documents/Projetos/Desenvolvimento/AndroidStudio/UFarm/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/Joni/Documents/Projetos/Desenvolvimento/AndroidStudio/UFarm/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-f356923b323626d0a0caf09a22d61ca07c9b78d8.jar" />
+    </item>
+    <item
+        jar="/Users/Joni/Documents/Projetos/Desenvolvimento/AndroidStudio/UFarm/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/Joni/Documents/Projetos/Desenvolvimento/AndroidStudio/UFarm/app/build/intermediates/pre-dexed/debug/classes-9f258dd206b0c715d428ff88970733a17e0035e0.jar" />
+    </item>
+    <item
+        jar="/Users/Joni/Library/Android/SDK/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/Joni/Documents/Projetos/Desenvolvimento/AndroidStudio/UFarm/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-8f93b9d3543dfac2fbb0ff23c50e5de91976d844.jar" />
+    </item>
+    <item
+        jar="/Users/Joni/Documents/Projetos/Desenvolvimento/AndroidStudio/UFarm/app/libs/ksoap2-android-assembly-3.3.0-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="62681b8212ca52278feafec31775fd0cb096d99a">
+        <dex dex="/Users/Joni/Documents/Projetos/Desenvolvimento/AndroidStudio/UFarm/app/build/intermediates/pre-dexed/debug/ksoap2-android-assembly-3.3.0-jar-with-dependencies-df885a6e3b25df0d0976ec3e589a4be069b81487.jar" />
+    </item>
+    <item
+        jar="/Users/Joni/Documents/Projetos/Desenvolvimento/AndroidStudio/UFarm/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.6.4/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="25c8422fe5a0acee6cee4f7e52449c2802f6ca19">
+        <dex dex="/Users/Joni/Documents/Projetos/Desenvolvimento/AndroidStudio/UFarm/app/build/intermediates/pre-dexed/debug/classes-87e162427c0bc9520f4516d9409c7e0928f6ee77.jar" />
+    </item>
+
+</items>

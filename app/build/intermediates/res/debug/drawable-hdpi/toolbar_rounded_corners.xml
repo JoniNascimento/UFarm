@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape = "rectangle">
+            <corners android:radius="5dp"/>
+            <!--olid android:color="@color/primary_dark"/-->
+
+        </shape>
+    </item>
+
+</selector>
+<!-- From: file:/Users/Joni/Documents/Projetos/Desenvolvimento/AndroidStudio/UFarm/app/src/main/res/drawable-hdpi/toolbar_rounded_corners.xml -->

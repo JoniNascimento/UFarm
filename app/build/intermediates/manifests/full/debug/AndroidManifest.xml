@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.unorte.ufarm"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="22" />
+
+    <!-- Solicitar permissão de acessar a Internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.MyTheme" >
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.LoginActivity"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.PainelProdutivo"
+            android:label="@string/title_activity_painel_produtivo" >
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.ListPropriedades"
+            android:label="@string/title_activity_list_propriedades" >
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.TabProduto"
+            android:label="@string/title_activity_tab1" >
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.TabAtvRot"
+            android:label="@string/title_activity_tab3" >
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.FrameProdServ"
+            android:label="@string/title_activity_frame_prod_serv" >
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.FragArrendamento"
+            android:label="@string/title_activity_frag_arrendamento" >
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.FragEmpFinan"
+            android:label="@string/title_activity_frag__prod__aquis__emp_finan" >
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.FragImplementosFerramentas"
+            android:label="@string/title_activity_frag_implementos_ferramentas" >
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.FragInsumos"
+            android:label="@string/title_activity_frag__insumos" >
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.FragLocacoes"
+            android:label="@string/title_activity_frag__locacoes" >
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.FragMantimento"
+            android:label="@string/title_activity_frag_mantimento" >
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.FragMaqEquip"
+            android:label="@string/title_activity_frag_maq_equip" >
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.FragRebanho"
+            android:label="@string/title_activity_frag_rebanho" >
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.FragSeguro"
+            android:label="@string/title_activity_frag_seguro" >
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.FragVeiculo"
+            android:label="@string/title_activity_frag_veiculo" >
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.ActivityInfoImpleFerram"
+            android:label="@string/title_activity_frag_info_imple_ferram" >
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.ActivityInfoMaqEquip"
+            android:label="@string/title_activity_frag_info_maq_equip" >
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.ActivityInfoRebanho"
+            android:label="@string/title_activity_frag_info_rebanho" >
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.Producao"
+            android:label="@string/title_activity_producao" >
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.AtvOperacional"
+            android:label="@string/title_activity_atv_operacional" >
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.Tab_ProducaoAgriFloresta"
+            android:label="@string/title_activity_producao_agri_floresta" >
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.Tab_ProducaoPecuaria"
+            android:label="@string/title_activity_tab__producao_pecuaria" >
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.Tab_ProducaoInfra"
+            android:label="@string/title_activity_tab__producao_infra" >
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.Tab_AtvRotExpedicao"
+            android:label="@string/title_activity_tab__atv_rot_expedicao" >
+        </activity>
+        <activity
+            android:name="br.com.unorte.ufarm.Activity.Tab_AtvRotOrganizacao"
+            android:label="@string/title_activity_tab__atv_rot_organizacao" >
+        </activity>
+    </application>
+
+</manifest>
