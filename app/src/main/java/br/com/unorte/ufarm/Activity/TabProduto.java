@@ -143,8 +143,8 @@ public class TabProduto extends FragmentActivity{
 		        public void onNothingSelected(AdapterView<?> adapterView) {  
 		            return;  
 		        }   
-		    }); 
-		}
+		});
+	}
 	
 	public OnItemSelectedListener SelecionaProdServ(){
 		return new OnItemSelectedListener() {

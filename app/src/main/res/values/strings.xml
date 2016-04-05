@@ -78,6 +78,14 @@
     <string name="txvRaca">Raça:</string>
     <string name="txvIdade">Idade:</string>
     <string name="txvObs">Obs.:</string>
+    <string name="txvProd_Serv">Prod/Serv</string>
+    <string name="txvNF">NF</string>
+    <string name="txvCompra_Admissão">Compra/Admissão</string>
+    <string name="txvVencimento">Vencimento</string>
+    <string name="txvVl">Valor</string>
+    <string name="txvID">Id</string>
+    <string name="txvDtCompra">Data de Compra</string>
+    <string name="txvVlTotal">Valor Total</string>
 
     <!-- Labels -->
     <string name="lblBtnGravar">Gravar</string>
@@ -177,8 +185,25 @@
         <item>Paralisada</item>
     </string-array>
 
+    <string-array name="ArrayTipoMaquinaEquip">
+        <item>Máquina</item>
+        <item>Equipamento</item>
+    </string-array>
+
+    <string-array name="ArrayTipoPec">
+        <item>Abate</item>
+        <item>Corte</item>
+        <item>Leiteira</item>
+    </string-array>
+
+    <string-array name="ArraySexo">
+        <item>Masculino</item>
+        <item>Feminino</item>
+    </string-array>
+    <string name="title_activity_pag_frag_pagamentos">PagFragPagamentos</string>
 
 
 
 
+    
 </resources>

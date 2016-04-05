@@ -116,15 +116,19 @@ public class FragImplementosFerramentas extends Fragment{
 
                     if (info.trim().toString().equals("Implemento")){
                         intent = new Intent(v.getContext(), ActivityInfoImpleFerram.class);
+                        ActivityInfoImpleFerram.bd = FragImplementosFerramentas.this.bd;
                     }
                     if (info.trim().toString().equals("Rebanho")){
                         intent = new Intent(v.getContext(), ActivityInfoRebanho.class);
+                        ActivityInfoRebanho.bd = FragImplementosFerramentas.this.bd;
                     }
                     if (info.trim().toString().equals("Maquinas")){
                         intent = new Intent(v.getContext(), ActivityInfoMaqEquip.class);
+                        ActivityInfoMaqEquip.bd = FragImplementosFerramentas.this.bd;
                     }
                     if (info.trim().toString().equals("Veiculo")){
                         intent = new Intent(v.getContext(), ActivityInfoMaqEquip.class);
+                        ActivityInfoMaqEquip.bd = FragImplementosFerramentas.this.bd;
                         ActivityInfoMaqEquip.VEICULO = true;
                     }
 

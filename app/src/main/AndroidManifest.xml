@@ -133,6 +133,10 @@
             android:name=".Activity.Tab_AtvRotOrganizacao"
             android:label="@string/title_activity_tab__atv_rot_organizacao" >
         </activity>
+        <activity
+            android:name=".Activity.PagFragPagamentos"
+            android:label="@string/title_activity_pag_frag_pagamentos" >
+        </activity>
     </application>
 
 </manifest>

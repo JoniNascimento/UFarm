@@ -7,11 +7,24 @@
         <item>Atividade Operacional</item>
         <item>Produção</item>
     </string-array>
+    <string-array name="ArraySexo">
+        <item>Masculino</item>
+        <item>Feminino</item>
+    </string-array>
     <string-array name="ArrayStatus">
         <item>Concluído</item>
         <item>Não Concluído</item>
         <item>Planejada</item>
         <item>Paralisada</item>
+    </string-array>
+    <string-array name="ArrayTipoMaquinaEquip">
+        <item>Máquina</item>
+        <item>Equipamento</item>
+    </string-array>
+    <string-array name="ArrayTipoPec">
+        <item>Abate</item>
+        <item>Corte</item>
+        <item>Leiteira</item>
     </string-array>
     <string-array name="ArrayUnMedida">
         <item>há</item>
